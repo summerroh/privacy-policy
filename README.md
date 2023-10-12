@@ -27,6 +27,8 @@ First, run the development server:
 npm run dev
 # or
 yarn dev
+
+npx next 라고 해야 함
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
@@ -74,7 +76,7 @@ For our testing, we use [Cypress](https://www.cypress.io/) for end-to-end testin
 -    enable = true
 -
 -  [plugins.inputs]
--    enable = false 
+-    enable = false
 ```
 
 If you’d like to remove the `netlify-plugin-cypress` build plugin entirely, you’d need to delete the entire block above instead. And then make sure sure to remove the package from the dependencies using:

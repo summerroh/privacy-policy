@@ -6,15 +6,22 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Next.js Starter!</title>
+        <title>Privacy Policy</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
+        <p>
+          <br />
+          <br />
+          <br />
+          <br />
+        </p>
         <Header title="Privacy Policy" />
+        <h1>Privacy Policy</h1>
         <p className="description">
-          Privacy Policy Summer Roh built the Yes or No, Goodnight Sounds app as
-          Free apps.
+          <br />
+          Summer Roh built the Yes or No, Goodnight Sounds app as Free apps.
           <br />
           This SERVICE is provided by Summer Roh at no cost and is intended for
           use as is.
